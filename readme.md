@@ -22,3 +22,8 @@ Predicate<Integer> => It takes input and process it then returns boolean result
 Function<Integer,Integer> / Function<Object,Integer> => It takes the input and returns the modified result
 Consumer<Integer> => It only takes input but doesn't return the result
 Supplier<String> => It only returns result
+
+
+Advanced Functional Interface
+1.Predicate<Integer> and, or function [returs True / False]
+2.Function Chaining
