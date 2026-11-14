@@ -1,6 +1,7 @@
 package java8;
 
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class AdvancedFunctionalInterface {
     public static void main(String[] args) {
@@ -18,6 +19,13 @@ public class AdvancedFunctionalInterface {
 
         System.out.println("Result is "+result.test(130));
         System.out.println("Result is "+result2.test(130));
+
+        // Functional Channing
+
+        Supplier<Employee> add=(()->{
+            return new Employee("Krishanu", 12000);
+        });
+        System.out.println(add.get().getName());
     }
     
 }
