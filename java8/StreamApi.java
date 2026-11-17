@@ -50,10 +50,21 @@ public class StreamApi {
         int total=emp.stream().mapToInt((e)-> e.getSalary()).reduce(0,(a,b)->a+b);
         System.out.println("Total -> "+total);
 
+
+        //Assigning to a list then printing
         List<EmployeeTest> e=emp.stream().collect(Collectors.toList());
         for(EmployeeTest x:e){
             System.out.println(x.getName()+" "+x.getSalary());
         }
+
+        List<Integer> li=Arrays.asList(1,10,3,1,2,9,100);
+        List<Integer> res=li.stream().distinct().collect(Collectors.toList());
+        for(Integer x:res){
+            System.out.println(x);
+        }
+
+        li.stream().sorted((a,b)->a-b).forEach(System.out::println);
+
 
 
         

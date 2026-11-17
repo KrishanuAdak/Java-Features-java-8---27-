@@ -48,7 +48,7 @@ public class AdvancedFunctionalInterface {
 
         //Supplier
         Supplier<Employee> add=(()->{
-            return new Employee("Krishanu", 12000);
+            return new Employee("Krishanu", 12000,"Mecheda");
         });
         Supplier<String> ss= ()-> "kri".toUpperCase();
         
