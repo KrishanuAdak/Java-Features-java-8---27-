@@ -45,7 +45,7 @@ public class Main{
         Function<Employee,Integer> getSalary=((e)->{
             return e.getSalary();
         });
-        Employee emp=new Employee("krishanu", 12000);
+        Employee emp=new Employee("krishanu", 12000,"Mecheda");
         System.out.println("Salary of employee is "+getSalary.apply(emp));
         
 

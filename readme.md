@@ -64,7 +64,7 @@ Terminal	count()	Returns the total number of elements in the stream.
 Terminal	anyMatch() / allMatch()	Returns true or false based on whether elements match a condition.
 Terminal	findFirst() / findAny()	Returns an Optional containing the first or any matching element.
 
-
+Collect(),Collectors(),GroupingBy(similar to SQL group by)
 
 
  
