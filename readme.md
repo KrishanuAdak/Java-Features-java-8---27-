@@ -66,5 +66,8 @@ Terminal	findFirst() / findAny()	Returns an Optional containing the first or any
 
 Collect(),Collectors(),GroupingBy(similar to SQL group by)
 
+Collectors() is used with collect(), to make list or set .
+Grouping By() is used like Sql group by .
+
 
  
